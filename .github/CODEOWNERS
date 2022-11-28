@@ -1,0 +1,3 @@
+# Enforces admin protections for repo configuration via probot settings app.
+# ref: https://github.com/probot/settings#security-implications
+.github/settings.yml @openclarity/org-admins
