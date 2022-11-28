@@ -1,0 +1,5 @@
+optConfig:
+  # TODO: Set to opt-out once org security policy is configured
+  #       ref: https://github.com/cisco-open/.github/issues/3
+  optOutStrategy: false
+action: issue
