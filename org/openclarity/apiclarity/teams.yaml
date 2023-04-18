@@ -1,0 +1,44 @@
+---
+teams:
+  apiclarity-admins:
+    description: Admins for APIClarity repos
+    maintainers:
+      - aduminuc
+      - akpsgit
+      - fishkerez
+      - FrimIdan
+    members:
+      - afalcesc
+      - klyr
+      - thelasttoto
+    privacy: closed
+    repos:
+      apiclarity: admin
+  apiclarity-maintainers:
+    description: Maintainers for APIClarity repos
+    maintainers:
+      - aduminuc
+      - akpsgit
+      - fishkerez
+      - FrimIdan
+      - galiail
+    members:
+      - afalcesc
+      - gicont
+      - jadiaconu
+      - jnapper7
+      - klyr
+      - mginzbur
+      - michrya2
+      - pb10006
+      - pbalogh-sa
+      - pkalum
+      - rafaelseidelcisco
+      - trevoluotch
+    privacy: closed
+    repos:
+      apiclarity: maintain
+      python-apiclarity-client: write
+      speculator: maintain
+      trace-sampling-manager: maintain
+      wasm-filters: maintain

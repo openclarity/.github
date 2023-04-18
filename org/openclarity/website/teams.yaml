@@ -1,0 +1,25 @@
+---
+teams:
+  website-admins:
+    description: Admins for OpenClarity websites
+    maintainers:
+      - justaugustus
+    privacy: closed
+    repos:
+      apiclarity.io: admin
+      openclarity.io: admin
+  website-maintainers:
+    description: Maintainers for OpenClarity websites
+    maintainers:
+      - zohard1
+    members:
+      - BigMrRob
+      - damarcil
+      - jesqi
+      - kaechele
+      - saahn
+      - sriaradhyula
+    privacy: closed
+    repos:
+      apiclarity.io: maintain
+      openclarity.io: maintain

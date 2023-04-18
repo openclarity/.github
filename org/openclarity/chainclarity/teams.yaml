@@ -1,0 +1,22 @@
+---
+teams:
+  chainclarity-admins:
+    description: Admins for ChainClarity repos
+    maintainers:
+      - akpsgit
+      - FrimIdan
+    privacy: closed
+    repos:
+      chainclarity: admin
+  chainclarity-maintainers:
+    description: Maintainers for ChainClarity repos
+    maintainers:
+      - akpsgit
+      - fishkerez
+      - FrimIdan
+      - sambetts-cisco
+    members:
+      - pbalogh-sa
+    privacy: closed
+    repos:
+      chainclarity: maintain
