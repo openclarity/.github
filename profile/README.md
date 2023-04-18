@@ -1,6 +1,7 @@
 
-OpenClarity is a suite of open source tools for cloud native security and observability—APIClarity, KubeClarity and VMClarity.
-Read more about each project below.
+# [OpenClarity](https://openclarity.io)
+
+OpenClarity is a suite of open source tools for cloud native security and observability — VMClarity, APIClarity, and KubeClarity. Read more about each project below.
 
 ### [VMClarity](https://github.com/openclarity/vmclarity)
 
