@@ -1,3 +1,20 @@
 # Enforces admin protections for repo configuration via probot settings app.
 # ref: https://github.com/probot/settings#security-implications
+
+# Maintainers
+# - Stephen Augustus (@justaugustus)
+# - Jason DeTiberus (@detiber)
+# - Márk Sági-Kazár (@sagikazarmark)
+# - Ed Warnicke (@edwarnicke)
+# - Shannon McFarland (@shmcfarl)
+# - Lelia Bray-Musso (@lelia)
+# - Sam Betts (@sambetts-cisco)
+* @openclarity/org-admins
+
+# Project Config
 .github/settings.yml @openclarity/org-admins
+.github/workflows/ @openclarity/org-admins
+
+# Org Config
+config/ @openclarity/org-admins
+profile/ @openclarity/org-admins
