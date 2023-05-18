@@ -27,9 +27,9 @@ staleLabel: stale
 
 # Comment to post when marking as stale. Set to `false` to disable
 markComment: >
-  This issue has been automatically marked as stale because it has not had
-  recent activity. It will be closed if no further activity occurs. Thank you
-  for your contributions.
+  Thank you for your contribution! Since there hasn't been any recent activity,
+  this issue has been automatically marked as stale, and may eventually be closed.
+  Please bump this issue or contact the maintainer(s) if you want to keep it open.
 
 # Comment to post when removing the stale label.
 # unmarkComment: >
