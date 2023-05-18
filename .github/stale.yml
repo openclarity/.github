@@ -37,7 +37,8 @@ markComment: >
 
 # Comment to post when closing a stale Issue or Pull Request.
 # closeComment: >
-#   Your comment here.
+  This stale issue is now closed due to inactivity. Please re-open or re-file if
+  if the issue is still relevant. Thank you!
 
 # Limit the number of actions per hour, from 1-30. Default is 30
 limitPerRun: 30
