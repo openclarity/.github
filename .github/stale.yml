@@ -29,7 +29,7 @@ staleLabel: stale
 markComment: >
   Thank you for your contribution! Since there hasn't been any recent activity,
   this issue has been automatically marked as stale, and may eventually be closed.
-  Please bump this issue or contact the maintainer(s) if you want to keep it open.
+  Please bump this issue by leaving a comment if you want to keep it open.
 
 # Comment to post when removing the stale label.
 # unmarkComment: >
