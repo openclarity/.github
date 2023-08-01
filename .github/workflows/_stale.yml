@@ -1,4 +1,4 @@
-name: stale
+name: _stale
 
 on:
   workflow_call:
