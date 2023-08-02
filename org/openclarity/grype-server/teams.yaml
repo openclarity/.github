@@ -11,8 +11,6 @@ teams:
     members:
       - pbalogh-sa
     privacy: closed
-    repos:
-      grype-server: triage
     teams:
       grype-server-admins:
         description: Admins for grype-server
@@ -24,8 +22,6 @@ teams:
         members:
           - pbalogh-sa
         privacy: closed
-        repos:
-          grype-server: admin
       grype-server-maintainers:
         description: Maintainers for grype-server
         maintainers:
@@ -36,5 +32,3 @@ teams:
         members:
           - pbalogh-sa
         privacy: closed
-        repos:
-          grype-server: maintain

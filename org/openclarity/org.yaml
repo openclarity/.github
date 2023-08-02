@@ -1,6 +1,5 @@
 ---
 admins:
-  # TODO: Add svrnm
   - aduminuc
   - akpsgit
   - cisco-service
@@ -17,6 +16,7 @@ admins:
   - sagikazarmark
   - sambetts-cisco
   - shmcfarl
+  - svrnm
   - zohard1
 billing_email: ospo-billing@cisco.com
 company: '@cisco-open'
@@ -48,10 +48,12 @@ members:
   - mchenetz
   - mginzbur
   - michrya2
+  - paralta
   - pb10006
   - pbalogh-sa
   - pkalum
   - rafaelseidelcisco
+  - ramizpolic
   - rmedvedo
   - ronyis
   - saahn
@@ -66,7 +68,6 @@ teams:
   org-admins:
     description: Admins for OpenClarity repos
     maintainers:
-    # TODO: Add svrnm
       - detiber
       - edwarnicke
       - justaugustus
@@ -75,10 +76,5 @@ teams:
       - sagikazarmark
       - sambetts-cisco
       - shmcfarl
+      - svrnm
     privacy: closed
-    repos:
-      .github: admin
-      clamav-mirror: admin
-      functionclarity: admin
-      python-apiclarity-client: admin
-      vmclarity-goat: admin

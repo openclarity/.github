@@ -8,8 +8,6 @@ teams:
       - embonshai
       - rmedvedo
     privacy: closed
-    repos:
-      functionclarity: admin
   functionclarity-maintainers:
     description: Maintainers for FunctionClarity repos
     maintainers:
@@ -18,5 +16,3 @@ teams:
       - embonshai
       - rmedvedo
     privacy: closed
-    repos:
-      functionclarity: maintain

@@ -11,12 +11,6 @@ teams:
     members:
       - pbalogh-sa
     privacy: closed
-    repos:
-      exploit-db-server: admin
-      freshclam-mirror: admin
-      vmclarity: admin
-      vmclarity-goat: admin
-      vmclarity-tools-base: admin
   vmclarity-maintainers:
     description: Maintainers for VMClarity repos
     maintainers:
@@ -30,14 +24,10 @@ teams:
       - adamtagscherer
       - chrisgacsal
       - lgecse
+      - paralta
       - pbalogh-sa
+      - ramizpolic
       - ronyis
       - shalevr
       - Tavh
     privacy: closed
-    repos:
-      exploit-db-server: maintain
-      freshclam-mirror: maintain
-      vmclarity: maintain
-      vmclarity-goat: maintain
-      vmclarity-tools-base: maintain

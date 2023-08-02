@@ -5,9 +5,6 @@ teams:
     maintainers:
       - justaugustus
     privacy: closed
-    repos:
-      apiclarity.io: admin
-      openclarity.io: admin
   website-maintainers:
     description: Maintainers for OpenClarity websites
     maintainers:
@@ -20,6 +17,3 @@ teams:
       - saahn
       - sriaradhyula
     privacy: closed
-    repos:
-      apiclarity.io: maintain
-      openclarity.io: maintain

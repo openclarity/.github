@@ -7,8 +7,6 @@ teams:
       - FrimIdan
       - justaugustus
     privacy: closed
-    repos:
-      kubeclarity: admin
   kubeclarity-maintainers:
     description: Maintainers for KubeClarity repos
     maintainers:
@@ -19,7 +17,6 @@ teams:
       - sambetts-cisco
     members:
       - abaklor
+      - lgecse
       - pbalogh-sa
     privacy: closed
-    repos:
-      kubeclarity: maintain
