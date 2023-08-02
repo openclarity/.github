@@ -1,23 +1,12 @@
 name: dump-config
-permissions: read-all
 
 on:
   workflow_dispatch:
 
 jobs:
-  dump:
-    name: dump-config
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: 🔒 harden runner
-        uses: step-security/harden-runner@v2
-        with:
-          egress-policy: audit
-      - name: 🔑 set token
-        run: echo "${{ secrets.SERVICE_ACCOUNT_TOKEN }}" > token
-      - name: 🚮 dump config
-        uses: docker://ghcr.io/uwu-tools/peribolos:v0.0.4
-        with:
-          github-token-path: ./token
-          dump: openclarity
+  dump-config:
+    uses: ./.github/workflows/_sync.yml
+    permissions: read-all
+    secrets: inherit
+    with:
+      dump: openclarity

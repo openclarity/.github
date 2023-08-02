@@ -1,41 +1,33 @@
 name: dry-run
-permissions: read-all
 
 on:
   push:
-    branches-ignore: [main]
+    branches: [develop]
     paths:
       - org/**
+  workflow_dispatch:
+    inputs:
+      force:
+        type: boolean
+        required: false
 
 jobs:
-  run:
-    name: dry-run
+  lint-yaml:
+    uses: ./.github/workflows/_lint.yml
+  dry-run:
+    needs: lint-yaml
+    uses: ./.github/workflows/_sync.yml
+    permissions: read-all
+    secrets: inherit
+    with:
+      confirm: false
+  sync-branch:
+    needs: dry-run
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: 🔒 harden runner
-        uses: step-security/harden-runner@v2
+      - name: 🔄 sync branch
+        uses: connor-baer/action-sync-branch@v1.0.3
         with:
-          egress-policy: audit
-      - name: 🧹 lint yaml
-        uses: ibiqlik/action-yamllint@v3
-        with:
-          file_or_dir: "org/**/*.yaml"
-          config_file: ".yamllint.yml"
-      - name: 🔑 set token
-        run: echo "${{ secrets.SERVICE_ACCOUNT_TOKEN }}" > token
-      - name: 🌵 dry run
-        uses: docker://ghcr.io/uwu-tools/peribolos:v0.0.4
-        with:
-          github-token-path: ./token
-          config-path: org
-          # TODO: Add svrnm
-          required-admins: "detiber,justaugustus,lelia,openclarity-service"
-          # TODO: Increase to 5
-          min-admins: 4
-          require-self: true
-          fix-org: true
-          fix-org-members: true
-          fix-teams: true
-          fix-team-members: true
-          confirm: false
+          token: ${{ secrets.SERVICE_ACCOUNT_TOKEN }}
+          branch: main
+          force: false
