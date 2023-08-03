@@ -1,0 +1,18 @@
+---
+teams:
+  chainclarity-admins:
+    description: Maintainers for ChainClarity repos
+    maintainers:
+      - naor-cisco
+    members:
+      - embonshai
+      - rmedvedo
+    privacy: closed
+  chainclarity-maintainers:
+    description: Maintainers for ChainClarity repos
+    maintainers:
+      - naor-cisco
+    members:
+      - embonshai
+      - rmedvedo
+    privacy: closed
