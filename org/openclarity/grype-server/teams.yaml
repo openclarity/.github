@@ -9,6 +9,8 @@ teams:
       - sambetts-cisco
       - zohard1
     members:
+      - adamtagscherer
+      - chrisgacsal
       - pbalogh-sa
     privacy: closed
     teams:
@@ -20,6 +22,8 @@ teams:
           - FrimIdan
           - sambetts-cisco
         members:
+          - adamtagscherer
+          - chrisgacsal
           - pbalogh-sa
         privacy: closed
       grype-server-maintainers:
@@ -30,5 +34,7 @@ teams:
           - FrimIdan
           - sambetts-cisco
         members:
+          - adamtagscherer
+          - chrisgacsal
           - pbalogh-sa
         privacy: closed

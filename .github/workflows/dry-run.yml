@@ -15,7 +15,6 @@ jobs:
   lint-yaml:
     uses: ./.github/workflows/_lint.yml
   dry-run:
-    needs: lint-yaml
     uses: ./.github/workflows/_sync.yml
     permissions: read-all
     secrets: inherit

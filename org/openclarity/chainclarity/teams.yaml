@@ -3,7 +3,8 @@ teams:
   chainclarity-admins:
     description: Maintainers for ChainClarity repos
     maintainers:
-      - naor-cisco
+      - akpsgit
+      - FrimIdan
     members:
       - embonshai
       - rmedvedo
@@ -11,8 +12,10 @@ teams:
   chainclarity-maintainers:
     description: Maintainers for ChainClarity repos
     maintainers:
-      - naor-cisco
+      - akpsgit
+      - fishkerez
+      - FrimIdan
+      - sambetts-cisco
     members:
-      - embonshai
-      - rmedvedo
+      - pbalogh-sa
     privacy: closed

@@ -3,6 +3,7 @@ teams:
   functionclarity-admins:
     description: Maintainers for FunctionClarity repos
     maintainers:
+      - detiber
       - naor-cisco
     members:
       - embonshai
@@ -11,6 +12,7 @@ teams:
   functionclarity-maintainers:
     description: Maintainers for FunctionClarity repos
     maintainers:
+      - detiber
       - naor-cisco
     members:
       - embonshai
