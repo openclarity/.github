@@ -13,8 +13,8 @@ on:
         default: ''
 
 env:
-  ADMIN_LIST: "detiber,justaugustus,lelia,openclarity-service,svrnm"
-  ADMIN_COUNT: 5
+  ADMIN_LIST: "detiber,justaugustus,lelia,natalisucks,openclarity-service,svrnm"
+  ADMIN_COUNT: 6
 
 jobs:
   sync:
