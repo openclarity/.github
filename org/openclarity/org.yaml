@@ -11,12 +11,13 @@ admins:
   - justaugustus
   - lelia
   - naor-cisco
+  - natalisucks
   - openclarity-service
   - rquelle
   - sagikazarmark
-  - sambetts-cisco
   - shmcfarl
   - svrnm
+  - Tehsmash
   - zohard1
 billing_email: ospo-billing@cisco.com
 company: '@cisco-open'
@@ -74,9 +75,18 @@ teams:
       - edwarnicke
       - justaugustus
       - lelia
+      - natalisucks
       - openclarity-service
       - sagikazarmark
-      - sambetts-cisco
       - shmcfarl
       - svrnm
+      - Tehsmash
     privacy: closed
+    repos:
+      .github: admin
+      clamav-mirror: admin
+      docs.openclarity.io: admin
+      errgroup: admin
+      functionclarity: admin
+      python-apiclarity-client: admin
+      vmclarity-goat: admin

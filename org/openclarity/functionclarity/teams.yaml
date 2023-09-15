@@ -1,7 +1,7 @@
 ---
 teams:
   functionclarity-admins:
-    description: Maintainers for FunctionClarity repos
+    description: Admins for FunctionClarity repos
     maintainers:
       - detiber
       - naor-cisco
@@ -9,6 +9,8 @@ teams:
       - embonshai
       - rmedvedo
     privacy: closed
+    repos:
+      functionclarity: admin
   functionclarity-maintainers:
     description: Maintainers for FunctionClarity repos
     maintainers:
@@ -18,3 +20,5 @@ teams:
       - embonshai
       - rmedvedo
     privacy: closed
+    repos:
+      functionclarity: maintain

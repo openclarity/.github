@@ -6,7 +6,10 @@ teams:
       - akpsgit
       - FrimIdan
       - justaugustus
+      - Tehsmash
     privacy: closed
+    repos:
+      kubeclarity: admin
   kubeclarity-maintainers:
     description: Maintainers for KubeClarity repos
     maintainers:
@@ -14,10 +17,12 @@ teams:
       - fishkerez
       - FrimIdan
       - galiail
-      - sambetts-cisco
+      - Tehsmash
     members:
       - abaklor
       - lgecse
       - pbalogh-sa
       - pkalapat
     privacy: closed
+    repos:
+      kubeclarity: maintain

@@ -6,13 +6,15 @@ teams:
       - akpsgit
       - fishkerez
       - FrimIdan
-      - sambetts-cisco
+      - Tehsmash
       - zohard1
     members:
       - adamtagscherer
       - chrisgacsal
       - pbalogh-sa
     privacy: closed
+    repos:
+      grype-server: triage
     teams:
       grype-server-admins:
         description: Admins for grype-server
@@ -20,21 +22,25 @@ teams:
           - akpsgit
           - fishkerez
           - FrimIdan
-          - sambetts-cisco
+          - Tehsmash
         members:
           - adamtagscherer
           - chrisgacsal
           - pbalogh-sa
         privacy: closed
+        repos:
+          grype-server: admin
       grype-server-maintainers:
         description: Maintainers for grype-server
         maintainers:
           - akpsgit
           - fishkerez
           - FrimIdan
-          - sambetts-cisco
+          - Tehsmash
         members:
           - adamtagscherer
           - chrisgacsal
           - pbalogh-sa
         privacy: closed
+        repos:
+          grype-server: maintain

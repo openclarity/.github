@@ -20,7 +20,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: 🔒 harden runner
         uses: step-security/harden-runner@v2
         with:
@@ -46,4 +46,5 @@ jobs:
           fix-org-members: true
           fix-teams: true
           fix-team-members: true
+          fix-team-repos: true
           confirm: ${{ inputs.confirm }}

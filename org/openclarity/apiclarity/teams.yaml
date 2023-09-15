@@ -12,6 +12,8 @@ teams:
       - klyr
       - thelasttoto
     privacy: closed
+    repos:
+      apiclarity: admin
   apiclarity-maintainers:
     description: Maintainers for APIClarity repos
     maintainers:
@@ -34,3 +36,9 @@ teams:
       - rafaelseidelcisco
       - trevoluotch
     privacy: closed
+    repos:
+      apiclarity: maintain
+      python-apiclarity-client: write
+      speculator: maintain
+      trace-sampling-manager: maintain
+      wasm-filters: maintain

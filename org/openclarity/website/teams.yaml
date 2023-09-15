@@ -5,6 +5,10 @@ teams:
     maintainers:
       - justaugustus
     privacy: closed
+    repos:
+      apiclarity.io: admin
+      docs.openclarity.io: admin
+      openclarity.io: admin
   website-maintainers:
     description: Maintainers for OpenClarity websites
     maintainers:
@@ -12,8 +16,13 @@ teams:
     members:
       - BigMrRob
       - damarcil
+      - dani-l-toth
       - jesqi
       - kaechele
       - saahn
       - sriaradhyula
     privacy: closed
+    repos:
+      apiclarity.io: maintain
+      docs.openclarity.io: maintain
+      openclarity.io: maintain

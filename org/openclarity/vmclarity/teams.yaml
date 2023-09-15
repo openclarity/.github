@@ -7,10 +7,18 @@ teams:
       - fishkerez
       - FrimIdan
       - galiail
-      - sambetts-cisco
+      - Tehsmash
     members:
+      - chrisgacsal
       - pbalogh-sa
     privacy: closed
+    repos:
+      exploit-db-server: admin
+      freshclam-mirror: admin
+      vmclarity: admin
+      vmclarity-goat: admin
+      vmclarity-tools-base: admin
+      yara-rule-server: admin
   vmclarity-maintainers:
     description: Maintainers for VMClarity repos
     maintainers:
@@ -18,8 +26,8 @@ teams:
       - fishkerez
       - FrimIdan
       - galiail
-      - sambetts-cisco
       - shmcfarl
+      - Tehsmash
     members:
       - adamtagscherer
       - chrisgacsal
@@ -31,3 +39,10 @@ teams:
       - shalevr
       - Tavh
     privacy: closed
+    repos:
+      exploit-db-server: maintain
+      freshclam-mirror: maintain
+      vmclarity: maintain
+      vmclarity-goat: maintain
+      vmclarity-tools-base: maintain
+      yara-rule-server: maintain
