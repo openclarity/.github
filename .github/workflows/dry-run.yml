@@ -29,4 +29,4 @@ jobs:
         with:
           token: ${{ secrets.SERVICE_ACCOUNT_TOKEN }}
           branch: main
-          force: false
+          force: true
