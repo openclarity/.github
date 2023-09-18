@@ -1,0 +1,21 @@
+name: prod-run
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - org/**
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  lint-yaml:
+    uses: ./.github/workflows/_lint.yml
+  sync-org:
+    needs: lint-yaml
+    uses: ./.github/workflows/_sync.yml
+    permissions: read-all
+    secrets: inherit
+    with:
+      confirm: true

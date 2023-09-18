@@ -1,0 +1,46 @@
+---
+teams:
+  grype-server:
+    description: Parent team for grype-server
+    maintainers:
+      - akpsgit
+      - fishkerez
+      - FrimIdan
+      - Tehsmash
+      - zohard1
+    members:
+      - adamtagscherer
+      - chrisgacsal
+      - pbalogh-sa
+    privacy: closed
+    repos:
+      grype-server: triage
+    teams:
+      grype-server-admins:
+        description: Admins for grype-server
+        maintainers:
+          - akpsgit
+          - fishkerez
+          - FrimIdan
+          - Tehsmash
+        members:
+          - adamtagscherer
+          - chrisgacsal
+          - pbalogh-sa
+        privacy: closed
+        repos:
+          grype-server: admin
+      grype-server-maintainers:
+        description: Maintainers for grype-server
+        maintainers:
+          - akpsgit
+          - fishkerez
+          - FrimIdan
+          - Tehsmash
+        members:
+          - adamtagscherer
+          - chrisgacsal
+          - pbalogh-sa
+        privacy: closed
+        repos:
+          grype-server: maintain

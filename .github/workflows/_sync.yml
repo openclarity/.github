@@ -1,0 +1,50 @@
+name: _sync
+
+on:
+  workflow_call:
+    inputs:
+      confirm:
+        type: boolean
+        required: false
+        default: false
+      dump:
+        type: string
+        required: false
+        default: ''
+
+env:
+  ADMIN_LIST: "detiber,justaugustus,lelia,natalisucks,openclarity-service,svrnm"
+  ADMIN_COUNT: 6
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 🔒 harden runner
+        uses: step-security/harden-runner@v2
+        with:
+          egress-policy: audit
+      - name: 🔑 set token
+        run: echo "${{ secrets.SERVICE_ACCOUNT_TOKEN }}" > token
+      - name: 🚮 dump config
+        if: inputs.confirm != true && inputs.dump != ''
+        uses: docker://ghcr.io/uwu-tools/peribolos:v0.0.4
+        with:
+          github-token-path: ./token
+          dump: ${{ inputs.dump }}
+      - name: 🔄 run peribolos
+        if: (inputs.confirm == true || inputs.confirm == false) && inputs.dump == ''
+        uses: docker://ghcr.io/uwu-tools/peribolos:v0.0.4
+        with:
+          github-token-path: ./token
+          config-path: org
+          required-admins: ${{ env.ADMIN_LIST }}
+          min-admins: ${{ env.ADMIN_COUNT }}
+          require-self: true
+          fix-org: true
+          fix-org-members: true
+          fix-teams: true
+          fix-team-members: true
+          fix-team-repos: true
+          confirm: ${{ inputs.confirm }}

@@ -1,0 +1,92 @@
+---
+admins:
+  - aduminuc
+  - akpsgit
+  - cisco-service
+  - detiber
+  - edwarnicke
+  - fishkerez
+  - FrimIdan
+  - galiail
+  - justaugustus
+  - lelia
+  - naor-cisco
+  - natalisucks
+  - openclarity-service
+  - rquelle
+  - sagikazarmark
+  - shmcfarl
+  - svrnm
+  - Tehsmash
+  - zohard1
+billing_email: ospo-billing@cisco.com
+company: '@cisco-open'
+default_repository_permission: read
+description: Cloud native application security and observability
+email: openclarity-github@cisco.com
+has_organization_projects: true
+has_repository_projects: true
+members:
+  - abaklor
+  - adamtagscherer
+  - afalcesc
+  - ArielShup
+  - BigMrRob
+  - cantechit
+  - chrisgacsal
+  - damarcil
+  - dani-l-toth
+  - dneduva-cisco
+  - embonshai
+  - eti-tme-tim
+  - fluffy
+  - gicont
+  - jadiaconu
+  - jesqi
+  - jnapper7
+  - kaechele
+  - klyr
+  - lgecse
+  - mchenetz
+  - mginzbur
+  - michrya2
+  - paralta
+  - pb10006
+  - pbalogh-sa
+  - pkalapat
+  - pkalum
+  - rafaelseidelcisco
+  - ramizpolic
+  - rmedvedo
+  - ronyis
+  - saahn
+  - shalevr
+  - sriaradhyula
+  - Tavh
+  - thelasttoto
+  - trevoluotch
+members_can_create_repositories: false
+name: OpenClarity
+teams:
+  org-admins:
+    description: Admins for OpenClarity repos
+    maintainers:
+      - detiber
+      - edwarnicke
+      - justaugustus
+      - lelia
+      - natalisucks
+      - openclarity-service
+      - sagikazarmark
+      - shmcfarl
+      - svrnm
+      - Tehsmash
+    privacy: closed
+    repos:
+      .github: admin
+      clamav-mirror: admin
+      docs.openclarity.io: admin
+      errgroup: admin
+      functionclarity: admin
+      python-apiclarity-client: admin
+      vmclarity-goat: admin

@@ -1,0 +1,12 @@
+name: dump-config
+
+on:
+  workflow_dispatch:
+
+jobs:
+  dump-config:
+    uses: ./.github/workflows/_sync.yml
+    permissions: read-all
+    secrets: inherit
+    with:
+      dump: openclarity

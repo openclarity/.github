@@ -17,5 +17,5 @@
 .github/workflows/ @openclarity/org-admins
 
 # Org Config
-config/ @openclarity/org-admins
+org/ @openclarity/org-admins
 profile/ @openclarity/org-admins

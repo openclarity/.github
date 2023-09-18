@@ -1,0 +1,28 @@
+---
+teams:
+  kubeclarity-admins:
+    description: Admins for KubeClarity repos
+    maintainers:
+      - akpsgit
+      - FrimIdan
+      - justaugustus
+      - Tehsmash
+    privacy: closed
+    repos:
+      kubeclarity: admin
+  kubeclarity-maintainers:
+    description: Maintainers for KubeClarity repos
+    maintainers:
+      - akpsgit
+      - fishkerez
+      - FrimIdan
+      - galiail
+      - Tehsmash
+    members:
+      - abaklor
+      - lgecse
+      - pbalogh-sa
+      - pkalapat
+    privacy: closed
+    repos:
+      kubeclarity: maintain
