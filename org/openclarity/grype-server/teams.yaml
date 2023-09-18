@@ -1,7 +1,7 @@
 ---
 teams:
   grype-server:
-    description: Parent team for grype-server repo
+    description: Parent team for grype-server
     maintainers:
       - akpsgit
       - fishkerez
@@ -17,7 +17,7 @@ teams:
       grype-server: triage
     teams:
       grype-server-admins:
-        description: Admins for grype-server repo
+        description: Admins for grype-server
         maintainers:
           - akpsgit
           - fishkerez
@@ -31,7 +31,7 @@ teams:
         repos:
           grype-server: admin
       grype-server-maintainers:
-        description: Maintainers for grype-server repo
+        description: Maintainers for grype-server
         maintainers:
           - akpsgit
           - fishkerez
