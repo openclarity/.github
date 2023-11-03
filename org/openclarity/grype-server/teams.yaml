@@ -41,6 +41,7 @@ teams:
           - adamtagscherer
           - chrisgacsal
           - pbalogh-sa
+          - paralta
         privacy: closed
         repos:
           grype-server: maintain
