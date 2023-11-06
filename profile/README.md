@@ -34,7 +34,7 @@ Key Capabilities:
 
 ## Kubernetes Security
 
-Kubernetes Security is a tool for detection and management of software bills of materials (SBOMs) and vulnerabilities in container images and filesystems. It scans both runtime Kubernetes clusters and CI/CD pipelines for enhanced software supply-chain security.
+[KubeClarity](https://github.com/openclarity/kubeclarity) is a tool for detection and management of software bills of materials (SBOMs) and vulnerabilities in container images and filesystems. It scans both runtime Kubernetes clusters and CI/CD pipelines for enhanced software supply-chain security.
 
 ![kube-clarity-diagram](profile/img/kube-clarity-diagram.webp)
 
