@@ -46,7 +46,7 @@ Key Capabilities:
 
 ## API Security
 
-API Security is an open source tool for APIs that helps you visualize and identify potential risks around API usage in your cloud native environments. It helps build the OpenAPI specifications for all APIs in your environment, then helps track drift, shadow or zombie usage for those APIs. You can then use this information to build your application security posture.
+[APIClarity](https://github.com/openclarity/apiclarity) is an open source tool for APIs that helps you visualize and identify potential risks around API usage in your cloud native environments. It helps build the OpenAPI specifications for all APIs in your environment, then helps track drift, shadow or zombie usage for those APIs. You can then use this information to build your application security posture.
 
 ![api-clarity-diagram](profile/img/apiclarity-docs-diagram.jpeg)
 
