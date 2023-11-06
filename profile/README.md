@@ -16,9 +16,9 @@ Openclarity delivers:
 
 Openclarity is a suite of open source tools for cloud native security and observability — VM Security, Kubernetes Security, and API Security. Read more about each project below.
 
-## [VM Security](https://github.com/openclarity/vmclarity)
+## VM Security
 
-VM Security is an open source tool for agentless detection and management of Virtual Machine Software Bill Of Materials (SBOM) and security threats such as vulnerabilities, exploits, malware, rootkits, misconfigurations and leaked secrets.
+[VMClarity](https://github.com/openclarity/vmclarity) is an open source tool for agentless detection and management of Virtual Machine Software Bill Of Materials (SBOM) and security threats such as vulnerabilities, exploits, malware, rootkits, misconfigurations and leaked secrets.
 
 ![vm-clarity-diagram](profile/img/vm-clarity-diagram.webp)
 
