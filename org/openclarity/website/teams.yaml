@@ -14,6 +14,7 @@ teams:
     maintainers:
       - zohard1
     members:
+      - adamtagscherer
       - BigMrRob
       - damarcil
       - dani-l-toth
@@ -21,6 +22,7 @@ teams:
       - jesqi
       - kaechele
       - lgecse
+      - paralta
       - saahn
       - sriaradhyula
     privacy: closed
