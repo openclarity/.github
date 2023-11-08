@@ -14,7 +14,7 @@ OpenClarity delivers:
 - Capabilities for runtime scans of Kubernetes and CI/CD pipelines
 - Comprehensive API security for internal and third-party APIs
 
-Openclarity is a suite of open source tools for cloud native security and observability — VM Security, Kubernetes Security, and API Security. Read more about each project below.
+OpenClarity is a suite of open source tools for cloud native security and observability — VM Security, Kubernetes Security, and API Security. Read more about each project below.
 
 ## VM Security
 
