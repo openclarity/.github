@@ -1,5 +1,5 @@
 
-# [Openclarity](https://openclarity.io)
+# [OpenClarity](https://openclarity.io)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://docs.openclarity.io/img/footer-logos/OC_logo_H_1C_white.svg">
