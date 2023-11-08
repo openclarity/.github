@@ -7,8 +7,8 @@
   <img alt="Openclarity logo" src="https://docs.openclarity.io/img/color-logo/logo.svg" width="50%">
 </picture>
 
-Openclarity is an open source platform to enhance security and observability of cloud-native applications and infrastructure.
-Openclarity delivers:
+[OpenClarity](https://openclarity.io) is an open source platform to enhance security and observability of cloud-native applications and infrastructure.
+OpenClarity delivers:
 
 - Agent-less detection and managements of vulnerabilities, exploits, malware and misconfigurations for VMs and Container Images
 - Capabilities for runtime scans of Kubernetes and CI/CD pipelines
