@@ -15,6 +15,7 @@ teams:
     repos:
       exploit-db-server: admin
       freshclam-mirror: admin
+      simple-controller-runtime: admin
       vmclarity: admin
       vmclarity-goat: admin
       vmclarity-tools-base: admin
@@ -44,6 +45,7 @@ teams:
     repos:
       exploit-db-server: maintain
       freshclam-mirror: maintain
+      simple-controller-runtime: maintain
       vmclarity: maintain
       vmclarity-goat: maintain
       vmclarity-tools-base: maintain
