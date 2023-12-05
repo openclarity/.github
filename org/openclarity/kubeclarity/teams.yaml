@@ -7,6 +7,9 @@ teams:
       - FrimIdan
       - justaugustus
       - Tehsmash
+    members:
+      - chrisgacsal
+      - ramizpolic
     privacy: closed
     repos:
       kubeclarity: admin
@@ -20,9 +23,11 @@ teams:
       - Tehsmash
     members:
       - abaklor
+      - chrisgacsal
       - lgecse
       - pbalogh-sa
       - pkalapat
+      - ramizpolic
     privacy: closed
     repos:
       kubeclarity: maintain
