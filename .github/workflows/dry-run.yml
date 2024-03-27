@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🔄 sync branch
-        uses: connor-baer/action-sync-branch@v1.0.3
+        uses: connor-baer/action-sync-branch@v1.1.0
         with:
           token: ${{ secrets.SERVICE_ACCOUNT_TOKEN }}
           branch: main
