@@ -6,11 +6,16 @@ teams:
       - akpsgit
       - fishkerez
       - FrimIdan
+      - lgecse
+      - ramizpolic
       - Tehsmash
       - zohard1
     members:
       - adamtagscherer
+      - akijakya
       - chrisgacsal
+      - csatib02
+      - paralta
       - pbalogh-sa
     privacy: closed
     repos:
@@ -22,10 +27,15 @@ teams:
           - akpsgit
           - fishkerez
           - FrimIdan
+          - lgecse
+          - ramizpolic
           - Tehsmash
         members:
           - adamtagscherer
+          - akijakya
           - chrisgacsal
+          - csatib02
+          - paralta
           - pbalogh-sa
         privacy: closed
         repos:
@@ -36,13 +46,16 @@ teams:
           - akpsgit
           - fishkerez
           - FrimIdan
+          - lgecse
+          - ramizpolic
           - Tehsmash
         members:
           - adamtagscherer
           - akijakya
           - chrisgacsal
-          - pbalogh-sa
+          - csatib02
           - paralta
+          - pbalogh-sa
         privacy: closed
         repos:
           grype-server: maintain

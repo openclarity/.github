@@ -10,9 +10,11 @@ admins:
   - galiail
   - justaugustus
   - lelia
+  - lgecse
   - naor-cisco
   - natalisucks
   - openclarity-service
+  - ramizpolic
   - shmcfarl
   - svrnm
   - Tehsmash
@@ -38,7 +40,6 @@ members:
   - dneduva-cisco
   - embonshai
   - eti-tme-tim
-  - fekete-robert
   - fluffy
   - gallotamas
   - gicont
@@ -47,7 +48,6 @@ members:
   - jnapper7
   - kaechele
   - klyr
-  - lgecse
   - mchenetz
   - mginzbur
   - michrya2
@@ -58,7 +58,6 @@ members:
   - pkalapat
   - pkalum
   - rafaelseidelcisco
-  - ramizpolic
   - rmedvedo
   - ronyis
   - saahn
@@ -77,8 +76,10 @@ teams:
       - edwarnicke
       - justaugustus
       - lelia
+      - lgecse
       - natalisucks
       - openclarity-service
+      - ramizpolic
       - shmcfarl
       - svrnm
       - Tehsmash

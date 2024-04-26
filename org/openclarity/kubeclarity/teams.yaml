@@ -6,10 +6,11 @@ teams:
       - akpsgit
       - FrimIdan
       - justaugustus
+      - lgecse
+      - ramizpolic
       - Tehsmash
     members:
       - chrisgacsal
-      - ramizpolic
     privacy: closed
     repos:
       kubeclarity: admin
@@ -20,14 +21,14 @@ teams:
       - fishkerez
       - FrimIdan
       - galiail
+      - lgecse
+      - ramizpolic
       - Tehsmash
     members:
       - abaklor
       - chrisgacsal
-      - lgecse
       - pbalogh-sa
       - pkalapat
-      - ramizpolic
     privacy: closed
     repos:
       kubeclarity: maintain
