@@ -45,6 +45,7 @@ teams:
       - ronyis
       - shalevr
       - Tavh
+      - zsoltkacsandi
     privacy: closed
     repos:
       exploit-db-server: maintain
