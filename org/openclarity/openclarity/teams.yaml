@@ -1,0 +1,55 @@
+---
+teams:
+  openclarity-admins:
+    description: Admins for OpenClarity repos
+    maintainers:
+      - akpsgit
+      - fishkerez
+      - FrimIdan
+      - galiail
+      - lgecse
+      - ramizpolic
+      - Tehsmash
+    members:
+      - pbalogh-sa
+    privacy: closed
+    repos:
+      exploit-db-server: admin
+      freshclam-mirror: admin
+      simple-controller-runtime: admin
+      openclarity: admin
+      openclarity-goat: admin
+      openclarity-tools-base: admin
+      yara-rule-server: admin
+  openclarity-maintainers:
+    description: Maintainers for OpenClarity repos
+    maintainers:
+      - akpsgit
+      - fishkerez
+      - FrimIdan
+      - galiail
+      - lgecse
+      - shmcfarl
+      - ramizpolic
+      - Tehsmash
+    members:
+      - adamtagscherer
+      - akijakya
+      - csatib02
+      - gallotamas
+      - misi-bp
+      - paralta
+      - pbalogh-sa
+      - ronyis
+      - shalevr
+      - Tavh
+      - zsoltkacsandi
+    privacy: closed
+    repos:
+      exploit-db-server: maintain
+      freshclam-mirror: maintain
+      simple-controller-runtime: maintain
+      openclarity: maintain
+      openclarity-goat: maintain
+      openclarity-tools-base: maintain
+      yara-rule-server: maintain
