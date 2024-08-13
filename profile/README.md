@@ -1,14 +1,12 @@
+<a href="https://openclarity.io" target="_blank">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://docs.openclarity.io/img/footer-logos/OC_logo_H_1C_white.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://docs.openclarity.io/img/color-logo/logo.svg">
+    <img alt="OpenClarity logo" src="https://docs.openclarity.io/img/color-logo/logo.svg" width="50%">
+  </picture>
+</a>
 
-# [OpenClarity](https://openclarity.io)
-
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://docs.openclarity.io/img/footer-logos/OC_logo_H_1C_white.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://docs.openclarity.io/img/color-logo/logo.svg">
-  <img alt="OpenClarity logo" src="https://docs.openclarity.io/img/color-logo/logo.svg" width="50%">
-</picture>
-
-[OpenClarity](https://openclarity.io) is a suite of open source projects built to enhance the security and observability of cloud native applications and infrastructure.
+[OpenClarity](https://github.com/openclarity/openclarity) is a suite of open source projects built to enhance the security and observability of cloud native applications and infrastructure.
 
 OpenClarity delivers:
 
@@ -16,7 +14,12 @@ OpenClarity delivers:
 - Capabilities for runtime scans of Kubernetes and CI/CD pipelines
 - Comprehensive API security for internal and third-party APIs
 
+<details>
+  <summary>
+    <h3>See more details</h3>
+  </summary>
 
+  
 ## VM Security
 
 [VMClarity](https://github.com/openclarity/vmclarity) is a tool for agentless detection and management of virtual machine Software Bill Of Materials (SBOM) and security threats such as vulnerabilities, exploits, malware, rootkits, misconfigurations, and leaked secrets.
@@ -56,3 +59,6 @@ Key Capabilities:
 - Quick and easy API visibility and analysis
 - Comprehensive dashboard to monitor APIs
 - Designed for developers, loved by security teams
+
+
+</details>
