@@ -4,6 +4,7 @@
     <source media="(prefers-color-scheme: light)" srcset="https://docs.openclarity.io/img/color-logo/logo.svg">
     <img alt="OpenClarity logo" src="https://docs.openclarity.io/img/color-logo/logo.svg" width="50%">
   </picture>
+  <br/><br/>
 </a>
 
 [OpenClarity](https://github.com/openclarity/openclarity) is a suite of open source projects built to enhance the security and observability of cloud native applications and infrastructure.
@@ -14,11 +15,19 @@ OpenClarity delivers:
 - Capabilities for runtime scans of Kubernetes and CI/CD pipelines
 - Comprehensive API security for internal and third-party APIs
 
+### Useful links
+
+[Website](https://openclarity.io/) 
+| [Docs](https://openclarity.io/docs/)
+| [Slack](https://outshift.com/slack) 
+| [Contributing guide](https://openclarity.io/docs/contributing/) 
+| [Security procedures](https://openclarity.io/docs/security/security/)
+| [Code of Conduct](https://openclarity.io/docs/code-of-conduct/code-of-conduct/)
+
 <details>
   <summary>
     <h3>See more details</h3>
   </summary>
-
   
 ## VM Security
 
