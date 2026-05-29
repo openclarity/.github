@@ -7,6 +7,11 @@
   <br/><br/>
 </a>
 
+> [!CAUTION]
+> **This organization and its subsequent repositories are no longer maintained.** OpenClarity maintainers have deprecated its suite of open source projects, its documentation site, and its Slack support channels.
+
+---
+
 [OpenClarity](https://github.com/openclarity/openclarity) is a suite of open source projects built to enhance the security and observability of cloud native applications and infrastructure.
 
 OpenClarity delivers:
@@ -14,15 +19,6 @@ OpenClarity delivers:
 - Agentless detection and managements of vulnerabilities, exploits, malware and misconfigurations for virtual machines and container images
 - Capabilities for runtime scans of Kubernetes and CI/CD pipelines
 - Comprehensive API security for internal and third-party APIs
-
-### Useful links
-
-[Website](https://openclarity.io/) 
-| [Docs](https://openclarity.io/docs/)
-| [Slack](https://outshift.com/slack) 
-| [Contributing guide](https://openclarity.io/docs/contributing/) 
-| [Security procedures](https://openclarity.io/docs/security/security/)
-| [Code of Conduct](https://openclarity.io/docs/code-of-conduct/code-of-conduct/)
 
 <details>
   <summary>
