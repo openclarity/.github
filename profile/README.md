@@ -1,8 +1,8 @@
 <a href="https://openclarity.io" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://docs.openclarity.io/img/footer-logos/OC_logo_H_1C_white.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://docs.openclarity.io/img/color-logo/logo.svg">
-    <img alt="OpenClarity logo" src="https://docs.openclarity.io/img/color-logo/logo.svg" width="50%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/openclarity/openclarity/main/assets/logos/OpenClarity-logo-light-bg.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/openclarity/openclarity/main/assets/logos/OpenClarity-logo-light-bg.png">
+    <img alt="OpenClarity logo" src="https://raw.githubusercontent.com/openclarity/openclarity/main/assets/logos/OpenClarity-logo-light-bg.png" width="50%">
   </picture>
   <br/><br/>
 </a>
